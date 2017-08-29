@@ -1,0 +1,121 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	font-family: "Open Sans", Sans-serif;
+	font-size: 16px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* ----- ----- HEADER ----- ----- */
+/* ----- Menu ---- */
+header {
+	background: #fff;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+#logo {
+	margin: 5px;
+	float: left;
+	width: 250px;
+	height: 100px;
+	background: url(../img/logo.png) no-repeat center;
+	display: block;
+}
+
+header .menu {
+	margin: 20px 0;
+	text-align: center;
+}
+
+header .menu a {
+	margin: 0 20px;
+	color: #808080;
+	padding-bottom: 9px;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	font-size: 1em;
+}
+
+header .menu a:hover {
+	border-bottom: 2px solid  #d5d8dc;
+}
+
+/* --- seccion nosotros --- */
+
+.nosotros {
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- seccion servicios --- */
+
+h1 {
+	font-size: 40px;
+	line-height: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color: #323068;
+	text-align: center;
+}
+
+.trabajos {
+	background: #f2f2f2;
+	padding: 50px 60px;	
+}
+
+.thumb {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.thumb img {
+	width: 100%;
+	vertical-align: top;
+	border-radius: 3px;
+	margin: 20px;
+	border: 5px solid #eee;
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-o-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.thumb img:hover {
+	webkit-transform: rotate(-6deg);
+	moz-transform: rotate(-6deg);
+	o-transform: rotate(-6deg);
+	transform: rotate(-6deg);
+
+}
+
+.titulos {
+	font-weight: 700;
+	font-size: 1em;
+	color: #3895ea;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.categoria {
+	font-size: 1em;
+	color: #636363;
+	text-align: justify;
+}
